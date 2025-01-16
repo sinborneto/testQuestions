@@ -3,8 +3,8 @@ import { AppComponent } from './app.component';
 
 export const routes: Routes = [
     {
-      path: 'home',
-      component: AppComponent,
-      pathMatch: 'full'
-    }
+        path: '',
+        component: AppComponent,
+        pathMatch: 'full'
+      }
   ];
