@@ -5,7 +5,7 @@ import { HomeComponent } from './pages/home/home.component';
 export const routes: Routes = [
     {
         path: '',
-        component: AppComponent,
+        component: HomeComponent,
         pathMatch: 'full'
       },
       {
